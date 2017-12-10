@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 
 ###
+# Author: Artur Sitarski
+#
 # This script is to add/register jenkins slave automatically to jenkins master;
+# In my case it's executed by my SDDC tool.
 # Slaves are created by AWS ASG; can be destroyed/created dynamically depends on you ASG actions.
 # Slave will register itself and add its instance-id as separate label - 
 # thanks to this, you will be able to find slave and destroy it when its server will be terminated.

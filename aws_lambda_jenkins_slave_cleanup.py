@@ -1,4 +1,6 @@
 ###
+# Author: Artur Sitarski
+#
 # Script used as a source of AWS Lambda
 # It's used to deregister jenkins slave from master when
 # its instance was terminated. Instances are in ASG.

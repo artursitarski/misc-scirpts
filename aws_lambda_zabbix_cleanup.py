@@ -1,4 +1,6 @@
 ###
+# Author: Artur Sitarski
+#
 # Script used as a source of AWS Lambda.
 # It's used to disable zabbix nodes associated with terminated AWS instances.
 # When AWS instance is being terminated CloudWatch rule executes this lambda.
