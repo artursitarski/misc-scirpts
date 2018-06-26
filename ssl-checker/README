@@ -1,0 +1,6 @@
+Tool to check how many days left to SSL cert expiration date.
+
+Go aplication compilation:
+go build -o ssl-checker -a -ldflags '-extldflags "-static"' main.go
+
+Zabbix template included (Zabbix 3.2.X). Template is based items and triggers prototypes.

@@ -1,0 +1,10 @@
+{
+	"data":[
+		{
+			"{#DOMAIN}":"google.com"
+        },
+        {
+            "{#DOMAIN}":"github.com"
+        }
+    ]
+}
